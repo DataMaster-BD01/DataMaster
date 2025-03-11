@@ -1,11 +1,7 @@
 # Descrição:
 API - BANCO DE DADOS | FATEC SJC (1º Semestre de 2025)
 
-# Descrição:
-lorem  
-
 # Objetivo:
-lorem ips
 
 # MVP de Cada Sprint
 
@@ -15,19 +11,20 @@ lorem ips
 
 ## Requisitos Funcionais do projeto
 
-| Nº do Requisito | Requisitos | Sprint |
+| Nº do Requisito | Requisitos | Sprint | Prioridade |
 | --- | --- | --- | --- |
-| RF001.0 |  | 1 | Alta |
-| RF002.0 |  | 1 | Alta |
-| RF003.0 |  | 1 | Alta |
-| RF004.0 |  | 1 | Alta |
-| RF005.0 |  | 1 | Alta |
-| RF006.0 |  | 2 | Alta |
-| RF007.0 |  | 2 | Média |
-| RF008.0 |  | 2 | Média |
-| RF009.0 |  | 2 | Baixo |
-| RF010.0 |  | 3 | Alta |
-| RF011.0 |  | 3 | Média |
+| RF001.0 | - | 1 | Alta |
+| RF002.0 | - | 1 | Alta |
+| RF003.0 | - | 1 | Alta |
+| RF004.0 | - | 1 | Alta |
+| RF005.0 | - | 1 | Alta |
+| RF006.0 | - | 2 | Alta |
+| RF007.0 | - | 2 | Média |
+| RF008.0 | - | 2 | Média |
+| RF009.0 | - | 2 | Baixo |
+| RF010.0 | - | 3 | Alta |
+| RF011.0 | - | 3 | Média |
+
 
 
 # Time
