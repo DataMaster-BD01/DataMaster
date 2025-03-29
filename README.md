@@ -26,6 +26,7 @@ DataMaster tem como servir como projeto integrador da Fatec SJC no 1º semestre 
 |    RF010.0    | Menu Interativo                        | Todas  |    Alta    |
 
 *FERRAMENTAS DIGITAIS:* recursos de tecnologia digital utilizados para desenvolvimento das tarefas previstas nos sprints.
+
 **VisualG:** software desktop utilizado para a construção dos pseudocódigos e desenvolvimento das lógicas de programação.  
 **Acesso em:** <img src="src/img_team/Logo_VisualG.jpg" width="95px">  
 
