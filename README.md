@@ -37,10 +37,10 @@ Nesta sprint, serão implementados os seguintes requisitos:
 | RF009.0         | Sequência Fatorial                     | 3      | Média      |
 | RF010.0         | Menu Interativo                        | Todas  | Alta       |
 
-## Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 
 - **VisualG**  
-  ![Tela Principal do VisualG](https://documentation.help/VISUALG-Versao/telaprin.jpg)  
+   <img src="src/img_team/Logo_VisualG.jpg" width="95px">  
   *Ambiente utilizado para a elaboração de pseudocódigo e desenvolvimento de lógica de programação.*
 
 - **Trello**  
@@ -53,8 +53,8 @@ Nesta sprint, serão implementados os seguintes requisitos:
 
 - **GitHub**  
   ![GitHub Logo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)  
-  *Repositório de código e controle de versões do projeto.*
-
+  *Ambiente utilizado para a elaboração de pseudocódigo e desenvolvimento de lógica de programação.*
+  
 ## Instruções de Uso
 
 1. **Clone o repositório:**
@@ -67,10 +67,10 @@ Nesta sprint, serão implementados os seguintes requisitos:
 
 | Foto                            | Nome               | Função          | GitHub                                                                                                                      | Linkedin                                                                                                                  |
 | ------------------------------- | ------------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| <img src="src/img_team/Gabriel.jpg" width=50px> | Gabriel Farias     | Product Owner   | <a href="#"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     | <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| <img src="src/img_team/Guilherme.jpg" width=50px> | Guilherme Arruda   | Scrum Master    | <a href="#"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     | <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| <img src="src/img_team/Gabriel.jpg" width=50px> | Gabriel Farias     | Product Owner   | <a href="https://github.com/FariasTheProgrammer"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     | <a href="https://www.linkedin.com/in/gabrielrodfarias/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| <img src="src/img_team/Guilherme.jpg" width=50px> | Guilherme Arruda   | Scrum Master    | <a href="https://github.com/guiggaaz"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     | <a href="linkedin.com/in/guilherme-almeida-de-arruda-368959332"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 | <img src="src/img_team/Erick.jpg" width=50px>     | Erick Faria        | Scrum Team      | <a href="https://github.com/ErickvFaria"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/%C3%A9rick-vin%C3%ADcius-79193b253/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| <img src="src/img_team/Benjamin.jpg" width=50px>  | Benjamin Marques   | Scrum Team      | <a href="#"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     | <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| <img src="src/img_team/Paulo.jpeg" width=50px>     | Paulo Cumbica      | Scrum Team      | <a href="#"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     | <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| <img src="src/img_team/Pedro.jpg" width=50px>     | Pedro              | Scrum Team      | <a href="#"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     | <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| <img src="src/img_team/Benjamin.jpg" width=50px>  | Benjamin Marques   | Scrum Team      | <a href="https://github.com/maarquueess"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     | <a href="https://www.linkedin.com/in/benjamin-do-prado-marques-benedito-48a4bb359?trk=contact-info"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| <img src="src/img_team/Paulo.jpeg" width=50px>     | Paulo Cumbica      | Scrum Team      | <a href="https://github.com/cumbicaphs"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     | <a href="https://www.linkedin.com/in/paulo-h-s-cumbica-ba64711b7/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| <img src="src/img_team/Pedro.jpg" width=50px>     | Pedro              | Scrum Team      | <a href="https://github.com/pedroquirino"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     | <a href="https://www.linkedin.com/in/pedro-quirino-909aa8270/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 
