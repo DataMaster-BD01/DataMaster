@@ -1,16 +1,16 @@
 Algoritmo "Quadrado Perfeito"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Programa para realizar calcular uma sequencia de quadrados perfeitos.
+// Autor(a)    : Erick Faria
 // Data atual  : 26/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    termo1, contador, calculo : inteiro
    quit: caracter
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    repita
       limpatela
       repita
@@ -25,10 +25,10 @@ Inicio
          leia(termo1)
 
          escreval("")
-         //inicio da estrutura de repetição de 0 a 9
+         //inicio da estrutura de repetiÃ§Ã£o de 0 a 9
          contador <- 0
          enquanto contador <= 9 faca
-         //função matematica do programa
+         //funÃ§Ã£o matematica do programa
             calculo <- termo1 * termo1
             //exibe o resultado
             escreval("O resultado do quadrado perifeito de",termo1 ,": ",calculo ,"")
