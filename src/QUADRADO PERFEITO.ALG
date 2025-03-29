@@ -23,7 +23,9 @@ Inicio
          //solicitando o termo para o usuario
          escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
          escreval("":10,"*              Bem vindo!             *")
-         escreval("":10,"*       Digite o primeiro termo:      *")
+         escreval("":10,"*        Digite o valor inicial       *")
+         escreval("":10,"*    para apresentar os 10 próximos   *")
+         escreval("":10,"*          quadrados perfeitos        *")
          escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
          leia(termo1)
 
@@ -35,7 +37,7 @@ Inicio
             //função matematica do programa
             calculo <- termo1 * termo1
             //exibe o resultado
-            escreval("":15,"* O resultado de",termo1 ,": ",calculo ,"   ")
+            escreval("":15,"   O resultado de",termo1 ,": ",calculo ,"   ")
             escreval("":15,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
             contador <- contador + 1
             termo1 <- termo1 + 1
