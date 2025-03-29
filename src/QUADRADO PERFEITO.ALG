@@ -22,7 +22,8 @@ Inicio
          escreval("")
          //solicitando o termo para o usuario
          escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
-         escreval("":10,"* Bem vindo! Digite o primeiro termo: *")
+         escreval("":10,"*              Bem vindo!             *")
+         escreval("":10,"*       Digite o primeiro termo:      *")
          escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
          leia(termo1)
 
