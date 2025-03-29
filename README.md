@@ -39,7 +39,7 @@ DataMaster tem como servir como projeto integrador da Fatec SJC no 1º semestre 
 **Acesso em**: ![GitHub Logo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)  
 
 ## RESULTADOS
-*PRODUCT BACKLOG SPRINT 1: foram realizadas as tarefas dos seguintes requisitos, conforme mostrados na tabela 2.
+*PRODUCT BACKLOG SPRINT 1:* foram realizadas as tarefas dos seguintes requisitos, conforme mostrados na tabela 2.
 
 **Tabela 2.** Tarefas realizadas dos requisitos previstos no sprint 1.
 | ID REQUISITOS |              REQUISITOS            | PRIORIDADE |
