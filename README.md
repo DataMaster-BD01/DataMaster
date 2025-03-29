@@ -1,69 +1,63 @@
-# DataMaster - API | Banco de Dados | 1ª Semestre - 2025
+# DATAMASTER | Banco de Dados: API | 1ª Semestre - 2025
 
-## Descrição
+## INTRODUÇÃO
 DataMaster tem como servir como projeto integrador da Fatec SJC no 1º semestre de 2025. O projeto visa a criação de um programa que execute cálculos e gere sequências numéricas, permitindo a aplicação prática dos conhecimentos adquiridos em lógica de programação, desenvolvimento de algoritmos e integração de sistemas. A proposta engloba o uso de pseudocódigo através do VisualG para validação dos conceitos, bem como a implementação de um menu interativo que possibilite a navegação entre as diferentes funcionalidades.
 
-## Objetivo
-- Fornecer um menu interativo que integre e possibilite a escolha entre os diferentes cálculos.
-- Garanta a qualidade do código por meio de testes, documentação e versionamento, promovendo uma experiência prática e colaborativa entre o grupo.
+## OBJETIVOS
+*GERAL: CONSTRUIR códigos de programação que identificam elementos de um conjunto de dados produzido por diferentes lógicas matemáticas.
 
-## Product Backlog da Sprint 1
+**ESPECÍFICOS: (1) RECONHECER as lógicas de matemáticas solicitadas; (2) DESCREVER o método de cada lógica matemática para construção dos conjuntos de elementos; (3) CONSTRUIR os conjuntos de elementos referentes a cada lógica matemática; (4) CRIAR os códigos no VisualG que atendam a demanda do cliente; (5) EXECUTAR os códigos no VisualG; (5) ANALISAR a execução dos códigos no VisualG; (6) AJUSTAR os códigos de acordo com cada necessidade; (6) ELABORAR a apresentação dos sprints.
 
-Nesta sprint, serão implementados os seguintes requisitos:
+## METODOLOGIA
+*PRODUCT BACKLOG: demanda de todos os requisitos funcionais solicitados, conforme listados na tabela 1.
 
-| Nº do Requisito | Requisitos                       | Prioridade |
-| --------------- | -------------------------------- | ---------- |
-| **RF001.0**    | Sequência de Fibonacci           | Alta       |
-| **RF002.0**    | Números Triangulares             | Baixa      |
-| **RF003.0**    | Sequência de Quadrados Perfeitos | Média      |
-| **RF010.0**    | Menu Interativo                  | Alta       |
+**Tabela 1.** Requisitos funcionais solicitados pelo cliente
+| ID REQUISITOS |               REQUISITOS               | SPRINT | PRIORIDADE |
+| ------------- | -------------------------------------- | ------ | ---------- |
+|    RF001.0    | Sequência de Fibonacci                 |   1    |    Alta    |
+|    RF002.0    | Sequência de Números Triangulares      |   1    |    Baixa   |
+|    RF003.0    | Sequência de Quadrados Perfeitos       |   1    |    Média   |
+|    RF004.0    | Sequência de Tribonacci                |   2    |    Alta    |
+|    RF005.0    | Sequência Alternada                    |   2    |    Baixa   |
+|    RF006.0    | Sequência de Números Primos            |   2    |    Média   |
+|    RF007.0    | Sequência de Cubos                     |   3    |    Alta    |
+|    RF008.0    | Sequência Geométrica                   |   3    |    Baixa   |
+|    RF009.0    | Sequência Fatorial                     |   3    |    Média   |
+|    RF010.0    | Menu Interativo                        | Todas  |    Alta    |
+
+## FERRAMENTAS DE TECNOLOGIA DIGITAL
+**VisualG:** software desktop utilizado para a construção dos pseudocódigos e desenvolvimento das lógicas de programação.  
+**Acesso em:** <img src="src/img_team/Logo_VisualG.jpg" width="95px">  
+
+**Trello**: software digital utilizado como ferramenta para organização do product backlog, das sprints e da gestão de tarefas programadas.  
+**Acesso em**: ![Trello Logo](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)  
+
+**Discord**: plataforma digital de comunicação utilizada para a integração social e funcional da equipe.  
+**Acesso em**: ![Discord Logo](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)  
+
+**GitHub**: software digital utilizado como repositório de códigos de programação e controle de todas as versões construídas para o projeto. 
+**Acesso em**: ![GitHub Logo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)  
+
+## RESULTADOS
+*PRODUCT BACKLOG SPRINT 1: foram realizadas as tarefas dos seguintes requisitos, conforme mostrados na tabela 2.
+
+**Tabela 2.** Tarefas realizadas dos requisitos previstos no sprint 1.
+| ID REQUISITOS |              REQUISITOS            | PRIORIDADE |
+| ------------- | ---------------------------------- | ---------- |
+|    RF001.0    | Sequência de Fibonacci             |    Alta    |
+|    RF002.0    | Sequência de Números Triangulares  |    Baixa   |
+|    RF003.0    | Sequência de Quadrados Perfeitos   |    Média   |
+|    RF010.0    | Menu Interativo                    |    Alta    |
 
 > **Observação:** O requisito RF010.0 (Menu Interativo) está presente em todas as sprints para garantir a navegação e a integração das funcionalidades.
-
-## Product Backlog
-
-### Requisitos Funcionais do projeto
-
-| Nº do Requisito | Requisitos                             | Sprint | Prioridade |
-| --------------- | -------------------------------------- | ------ | ---------- |
-| RF001.0         | Sequência de Fibonacci                 | 1      | Alta       |
-| RF002.0         | Números Triangulares                   | 1      | Baixa      |
-| RF003.0         | Sequência de Quadrados Perfeitos       | 1      | Média      |
-| RF004.0         | Sequência de Tribonacci                | 2      | Alta       |
-| RF005.0         | Sequência Alternada                    | 2      | Baixa      |
-| RF006.0         | Sequência de Números Primos            | 2      | Média      |
-| RF007.0         | Sequência de Cubos                     | 3      | Alta       |
-| RF008.0         | Sequência Geométrica                   | 3      | Baixa      |
-| RF009.0         | Sequência Fatorial                     | 3      | Média      |
-| RF010.0         | Menu Interativo                        | Todas  | Alta       |
-
-## 💻 Tecnologias Utilizadas
-
-- **VisualG**  
-   <img src="src/img_team/Logo_VisualG.jpg" width="95px">  
-  *Ambiente utilizado para a elaboração de pseudocódigo e desenvolvimento de lógica de programação.*
-
-- **Trello**  
-  ![Trello Logo](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)  
-  *Ferramenta de gestão de tarefas e organização do Product Backlog e sprints.*
-
-- **Discord**  
-  ![Discord Logo](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)  
-  *Plataforma de comunicação e integração entre a equipe.*
-
-- **GitHub**  
-  ![GitHub Logo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)  
-  *Ambiente utilizado para a elaboração de pseudocódigo e desenvolvimento de lógica de programação.*
   
-## Instruções de Uso
-
-1. **Clone o repositório:**
+## INSTRUÇÕES DE USO
+(1) **Clone o repositório:**
    ```bash
    git clone https://github.com/DataMaster-BD01/DataMaster.git
-2. Copie o código *main.alg* no VisualG e execute.
+(2) Copie e execute o código *main.alg* no VisualG.
    
-
-## Time
+## EQUIPE TÉCNICA
 
 | Foto                            | Nome               | Função          | GitHub                                                                                                                      | Linkedin                                                                                                                  |
 | ------------------------------- | ------------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
