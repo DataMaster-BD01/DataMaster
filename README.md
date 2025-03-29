@@ -1,15 +1,15 @@
 # DATAMASTER | Banco de Dados: API | 1ª Semestre - 2025
 
-## INTRODUÇÃO
+## 1.INTRODUÇÃO
 DataMaster tem como servir como projeto integrador da Fatec SJC no 1º semestre de 2025. O projeto visa a criação de um programa que execute cálculos e gere sequências numéricas, permitindo a aplicação prática dos conhecimentos adquiridos em lógica de programação, desenvolvimento de algoritmos e integração de sistemas. A proposta engloba o uso de pseudocódigo através do VisualG para validação dos conceitos, bem como a implementação de um menu interativo que possibilite a navegação entre as diferentes funcionalidades.
 
-## OBJETIVOS
-*GERAL*: CONSTRUIR códigos de programação que identificam elementos de um conjunto de dados produzido por diferentes lógicas matemáticas.
+## 2.OBJETIVOS
+*2.1 GERAL*: CONSTRUIR códigos de programação que identificam elementos de um conjunto de dados produzido por diferentes lógicas matemáticas.
 
-*ESPECÍFICOS*: (1) RECONHECER as lógicas de matemáticas solicitadas; (2) DESCREVER o método de cada lógica matemática para construção dos conjuntos de elementos; (3) CONSTRUIR os conjuntos de elementos referentes a cada lógica matemática; (4) CRIAR os códigos no VisualG que atendam a demanda do cliente; (5) EXECUTAR os códigos no VisualG; (5) ANALISAR a execução dos códigos no VisualG; (6) AJUSTAR os códigos de acordo com cada necessidade; (6) ELABORAR a apresentação dos sprints.
+*2.2 ESPECÍFICOS*: (1) RECONHECER as lógicas de matemáticas solicitadas; (2) DESCREVER o método de cada lógica matemática para construção dos conjuntos de elementos; (3) CONSTRUIR os conjuntos de elementos referentes a cada lógica matemática; (4) CRIAR os códigos no VisualG que atendam a demanda do cliente; (5) EXECUTAR os códigos no VisualG; (5) ANALISAR a execução dos códigos no VisualG; (6) AJUSTAR os códigos de acordo com cada necessidade; (6) ELABORAR a apresentação dos sprints.
 
-## METODOLOGIA
-*PRODUCT BACKLOG*: demanda de todos os requisitos funcionais solicitados, conforme listados na tabela 1.
+## 3.METODOLOGIA
+*3.1 PRODUCT BACKLOG*: demanda de todos os requisitos funcionais solicitados, conforme listados na tabela 1.
 
 **Tabela 1.** Requisitos funcionais solicitados pelo cliente
 | ID REQUISITOS |               REQUISITOS               | SPRINT | PRIORIDADE |
@@ -25,7 +25,7 @@ DataMaster tem como servir como projeto integrador da Fatec SJC no 1º semestre 
 |    RF009.0    | Sequência Fatorial                     |   3    |    Média   |
 |    RF010.0    | Menu Interativo                        | Todas  |    Alta    |
 
-*FERRAMENTAS DIGITAIS:* recursos de tecnologia digital utilizados para desenvolvimento das tarefas previstas nos sprints.
+*3.2 FERRAMENTAS DIGITAIS:* recursos de tecnologia digital utilizados para desenvolvimento das tarefas previstas nos sprints.
 
 **VisualG:** software desktop utilizado para a construção dos pseudocódigos e desenvolvimento das lógicas de programação.  
 **Acesso em:** <img src="src/img_team/Logo_VisualG.jpg" width="95px">  
@@ -39,8 +39,8 @@ DataMaster tem como servir como projeto integrador da Fatec SJC no 1º semestre 
 **GitHub**: software digital utilizado como repositório de códigos de programação e controle de todas as versões construídas para o projeto. 
 **Acesso em**: ![GitHub Logo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)  
 
-## RESULTADOS
-*PRODUCT BACKLOG SPRINT 1:* foram realizadas as tarefas dos seguintes requisitos, conforme mostrados na tabela 2.
+## 4.RESULTADOS
+*4.1 PRODUCT BACKLOG SPRINT 1:* foram construídos os códigos de programação dos requisitos indicados na tabela 2.
 
 **Tabela 2.** Tarefas realizadas dos requisitos previstos no sprint 1.
 | ID REQUISITOS |              REQUISITOS            | PRIORIDADE |
