@@ -1,14 +1,14 @@
 # DATAMASTER | Banco de Dados: API | 1ª Semestre - 2025
 
-## 1.INTRODUÇÃO
+## 1. INTRODUÇÃO
 DataMaster tem como servir como projeto integrador da Fatec SJC no 1º semestre de 2025. O projeto visa a criação de um programa que execute cálculos e gere sequências numéricas, permitindo a aplicação prática dos conhecimentos adquiridos em lógica de programação, desenvolvimento de algoritmos e integração de sistemas. A proposta engloba o uso de pseudocódigo através do VisualG para validação dos conceitos, bem como a implementação de um menu interativo que possibilite a navegação entre as diferentes funcionalidades.
 
-## 2.OBJETIVOS
+## 2. OBJETIVOS
 *2.1 GERAL*: CONSTRUIR códigos de programação que identificam elementos de um conjunto de dados produzido por diferentes lógicas matemáticas.
 
 *2.2 ESPECÍFICOS*: (1) RECONHECER as lógicas de matemáticas solicitadas; (2) DESCREVER o método de cada lógica matemática para construção dos conjuntos de elementos; (3) CONSTRUIR os conjuntos de elementos referentes a cada lógica matemática; (4) CRIAR os códigos no VisualG que atendam a demanda do cliente; (5) EXECUTAR os códigos no VisualG; (5) ANALISAR a execução dos códigos no VisualG; (6) AJUSTAR os códigos de acordo com cada necessidade; (6) ELABORAR a apresentação dos sprints.
 
-## 3.METODOLOGIA
+## 3. METODOLOGIA
 *3.1 PRODUCT BACKLOG*: demanda de todos os requisitos funcionais solicitados, conforme listados na tabela 1.
 
 **Tabela 1.** Requisitos funcionais solicitados pelo cliente
@@ -39,7 +39,7 @@ DataMaster tem como servir como projeto integrador da Fatec SJC no 1º semestre 
 **GitHub**: software digital utilizado como repositório de códigos de programação e controle de todas as versões construídas para o projeto. 
 **Acesso em**: ![GitHub Logo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)  
 
-## 4.RESULTADOS
+## 4. RESULTADOS
 *4.1 PRODUCT BACKLOG SPRINT 1:* foram construídos os códigos de programação dos requisitos indicados na tabela 2.
 
 **Tabela 2.** Tarefas realizadas dos requisitos previstos no sprint 1.
@@ -52,13 +52,13 @@ DataMaster tem como servir como projeto integrador da Fatec SJC no 1º semestre 
 
 > **Observação:** O requisito RF010.0 (Menu Interativo) está presente em todas as sprints para garantir a navegação e a integração das funcionalidades.
   
-## INSTRUÇÕES DE USO
+*4.2 INSTRUÇÕES DE USO*
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/DataMaster-BD01/DataMaster.git
 2. Copie e execute o código *main.alg* no VisualG.
    
-## EQUIPE TÉCNICA
+## 5. EQUIPE TÉCNICA
 
 | Foto                            | Nome               | Função          | GitHub                                                                                                                      | Linkedin                                                                                                                  |
 | ------------------------------- | ------------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
