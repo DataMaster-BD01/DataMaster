@@ -53,10 +53,10 @@ DataMaster tem como servir como projeto integrador da Fatec SJC no 1º semestre 
 > **Observação:** O requisito RF010.0 (Menu Interativo) está presente em todas as sprints para garantir a navegação e a integração das funcionalidades.
   
 ## INSTRUÇÕES DE USO
-(1) **Clone o repositório:**
+1. **Clone o repositório:**
    ```bash
    git clone https://github.com/DataMaster-BD01/DataMaster.git
-(2) Copie e execute o código *main.alg* no VisualG.
+2. Copie e execute o código *main.alg* no VisualG.
    
 ## EQUIPE TÉCNICA
 
