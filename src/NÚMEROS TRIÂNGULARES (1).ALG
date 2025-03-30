@@ -1,7 +1,7 @@
-Algoritmo "NÚMEROS TRIÂNGULARES"
+Algoritmo "NÃšMEROS TRIÃ‚NGULARES"
 // Disciplina  : Aprimoramento em  Projetos Integrados
 // Professor   : Fabiano Sabha
-// Descrição   : Apresentação da Sequência de Números Triangulares
+// DescriÃ§Ã£o   : ApresentaÃ§Ã£o da SequÃªncia de NÃºmeros Triangulares
 // Autor(a)    : Paulo HS Cumbica
 // Data atual  : 28/03/2025
 Var
@@ -12,25 +12,44 @@ Inicio
    Repita
       Limpatela
       Repita
-   Escreva("Insira a quantidade de números triangulares que deseja: ")
-   Leia(quantidade)
+         escreval
+         escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+         escreval("":10,"*         -NÃºmero Triangular-         *")
+         escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+         escreval
+         escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+         escreval("":10,"*              Bem vindo!             *")
+         escreval("":10,"*        Digite o valor inicial       *")
+         escreval("":10,"*    para apresentar os 10 prÃ³ximos   *")
+         escreval("":10,"*          NÃºmeros Triangulares       *")
+         escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+         Leia(quantidade)
 
-   Se quantidade <= 0 Então
-      Escreval("Erro: Digite um número maior que zero!")
-   Senao
-      Escreval("---------------------------")
-      Escreval("|   n   | Número Triangular")
-      Escreval("---------------------------")
+   Se quantidade <= 0 EntÃ£o
+            escreval("":8,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+            escreval("":8,"*  Erro: Digite um nÃºmero maior que zero! *")
+            escreval("":8,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+         Senao
+            escreval("":15,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+            escreval("":15,"* nÂ°  -   NÃºmero Triangular *")
+            escreval("":15,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
 
       Para i de 1 ate quantidade Faca
          NumTriangular <- (i * (i + 1)) div 2
-         Escreval("|  ", i, "   |      ", NumTriangular)
+         Escreval("":15,"  ", i, "         ", NumTriangular)
       Fimpara
-      Escreval("---------------------------")
+      Escreval("":15,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
    Fimse
-   Escreva("Deseja produzir uma nova sequência? (S/N): ")
-   Leia(opcao)
-   ate (minusc(opcao)="S") ou (minusc(opcao)="N")
-   ate(minusc(opcao)="S")
+   escreval
+         escreval("":12," O UsuÃ¡rio deseja retornar ao menu?   ")
+         escreval("":10," (Digite 'S' para sim ou 'N' para nÃ£o)")
+         escreval
+         escreval
+         escreval("":10,"*-*-*-*-*-*-*-*-*    *-*-*-*-*-*-*-*-*")
+         escreval("":10,"*       S       *    *       N       *")
+         escreval("":10,"*-*-*-*-*-*-*-*-*    *-*-*-*-*-*-*-*-*")
+         leia(opcao)
+      ate (minusc(opcao)="s") ou (minusc(opcao)="n")
+   ate(minusc(opcao)="s")
 
 Fimalgoritmo
