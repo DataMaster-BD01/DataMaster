@@ -19,9 +19,9 @@ Inicio
          escreval
          escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
          escreval("":10,"*              Bem vindo!             *")
-         escreval("":10,"*        Digite o valor inicial       *")
-         escreval("":10,"*    para apresentar os 10 próximos   *")
-         escreval("":10,"*          Números Triangulares       *")
+         escreval("":10,"*       Digite os valores iniciais    *")
+         escreval("":10,"*       para apresentar os próximos:  *")
+         escreval("":10,"*         -Números Triangulares-      *")
          escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
          Leia(quantidade)
 
