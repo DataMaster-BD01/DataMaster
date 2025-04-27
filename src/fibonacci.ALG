@@ -1,11 +1,11 @@
 Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 29/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    i, num : inteiro
    numUm, numDois, numFib : real
    quit : caracter
@@ -16,19 +16,19 @@ Inicio
    limpatela
       repita
       
-      //Apresentação da função
+      //ApresentaÃ§Ã£o da funÃ§Ã£o
          escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
-         escreval("":10,"*       - SEQUÊNCIA FIBONACCI -       *")
+         escreval("":10,"*       - SEQUÃŠNCIA FIBONACCI -       *")
          escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
          escreval
          escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
          escreval("":10,"*       Insira um valor inicial       *")
-         escreval("":10,"*    para apresentar as 10 próximas   *")
-         escreval("":10,"*       sequências de Fibonacci:      *")
+         escreval("":10,"*    para apresentar as 10 prÃ³ximas   *")
+         escreval("":10,"*       sequÃªncias de Fibonacci:      *")
          escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
          leia(num)
          
-         //Caso Usuário coloque número menor que Zero
+         //Caso UsuÃ¡rio coloque nÃºmero menor que Zero
          se num <=0 entao
             limpatela
             escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
@@ -37,38 +37,38 @@ Inicio
          fimse
       ate   (num > 0)
       
-        //Inicia as variáveis
+        //Inicia as variÃ¡veis
       i <- 0
       numUm <- 0
       numDois <- 1
       numFib <-0
       limpatela
       escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
-      escreval("":10,"*       Sequência de Fibonacci:       *")
+      escreval("":10,"*       SequÃªncia de Fibonacci:       *")
       escreval("":10,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
       escreval
       escreval("":5,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
       
-      //Inicia a estrutura de repetição
+      //Inicia a estrutura de repetiÃ§Ã£o
       para i de 1 ate num + 9 faca
          se i >= num entao
 
-            escreval("":5," ",i,"º na seqência de Fibonacci: ",numUm)
+            escreval("":5," ",i,"Âº na seqÃªncia de Fibonacci: ",numUm)
             escreval("":5,"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
 
          fimse
          
-         //Realiza a implementação de valores para cada variável
+         //Realiza a implementaÃ§Ã£o de valores para cada variÃ¡vel
          numFib <- numUm + NumDois
          numUm <- NumDois
          numDois <- NumFib
       fimpara
 
-      //Solicita ao Usuário uma entrada para permanecer ou não na função
+      //Solicita ao UsuÃ¡rio uma entrada para permanecer ou nÃ£o na funÃ§Ã£o
       repita
          escreval
-         escreval("":11," O Usuário deseja retornar ao MENU?   ")
-         escreval("":10," (Digite 'S' para sim ou 'N' para não)")
+         escreval("":11," O UsuÃ¡rio deseja retornar ao MENU?   ")
+         escreval("":10," (Digite 'S' para sim ou 'N' para nÃ£o)")
          escreval
          escreval
          escreval("":10,"*-*-*-*-*-*-*-*-*    *-*-*-*-*-*-*-*-*")
