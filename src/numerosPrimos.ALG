@@ -1,15 +1,15 @@
 Algoritmo "N primos"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 04/04/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    num1, i, j, primo, k, num2 : inteiro
    sair : caracter
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 
    //se menu = 4 entao
@@ -18,7 +18,7 @@ Inicio
       //escreval(2 % 2)
       escreval("":10,"+---------------------------------------+")
       escreval("":10,"|*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*|")
-      escreval("":10,"|*        -SEQUENCIA Nº PRIMOS-        *|")
+      escreval("":10,"|*        -SEQUENCIA NÂº PRIMOS-        *|")
       escreval("":10,"|*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*|")
       escreval("":10,"+---------------------------------------+")
       escreval
@@ -26,17 +26,17 @@ Inicio
       escreval("":7,"+----------------------------------------------+")
       escreval("":7,"|*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-|")
       escreval("":7,"|*                                            *|")
-      escreval("":7,"|*  ¦¦¦¦¦¦+    Números primos são números     *|")
-      escreval("":7,"|*  ¦¦+--¦¦+  naturais maiores que 1 que têm  *|")
-      escreval("":7,"|*  ¦¦¦¦¦¦¦+    exatamente dois divisores     *|")
-      escreval("":7,"|*  ¦¦¦---+       distintos:                  *|")
-      escreval("":7,"|*  ¦¦¦                                       *|")
-      escreval("":7,"|*  +-+      o número 1 e ele mesmo.          *|")
+      escreval("":7,"|*  Â¦Â¦Â¦Â¦Â¦Â¦+    NÃºmeros primos sÃ£o nÃºmeros     *|")
+      escreval("":7,"|*  Â¦Â¦+--Â¦Â¦+  naturais maiores que 1 que tÃªm  *|")
+      escreval("":7,"|*  Â¦Â¦Â¦Â¦Â¦Â¦Â¦+    exatamente dois divisores     *|")
+      escreval("":7,"|*  Â¦Â¦Â¦---+       distintos:                  *|")
+      escreval("":7,"|*  Â¦Â¦Â¦                                       *|")
+      escreval("":7,"|*  +-+      o nÃºmero 1 e ele mesmo.          *|")
       escreval("":7,"|*                                            *|")
-      escreval("":7,"|*  Os números primos não seguem uma fórmula  *|")
+      escreval("":7,"|*  Os nÃºmeros primos nÃ£o seguem uma fÃ³rmula  *|")
       escreval("":7,"|*  simples e exata que gere todos e somente  *|")
-      escreval("":7,"|*   eles. Isso é parte do que os torna tão   *|")
-      escreval("":7,"|* interessantes e misteriosos na matemática. *|")
+      escreval("":7,"|*   eles. Isso Ã© parte do que os torna tÃ£o   *|")
+      escreval("":7,"|* interessantes e misteriosos na matemÃ¡tica. *|")
       escreval("":7,"|*                                            *|")
       escreval("":7,"|*                                            *|")
       escreval("":7,"|*                                            *|")
@@ -52,7 +52,7 @@ Inicio
       escreval("":10,"|*          em seguida o de saida      *|")
       escreval("":10,"|*     para em gerar a sequencia de :  *|")
       escreval("":10,"|*                                     *|")
-      escreval("":10,"|*          -Números Primos-           *|")
+      escreval("":10,"|*          -NÃºmeros Primos-           *|")
       escreval("":10,"|*                                     *|")
       escreval("":10,"|* OBS:valor de entrada deve ser menor *|")
       escreval("":10,"|*         que o valor de saida        *|")
@@ -66,21 +66,21 @@ Inicio
       escreval("":10,"Valor de entrada: ",num1, " valor de saida: ",num2)
       escreval("":7,"+-------------------------------------------------+")
       escreval
-      escreval("":10,"   -A Sequencia de números primos- ")
-      escreval("":22, num1," até",num2,":")
+      escreval("":10,"   -A Sequencia de nÃºmeros primos- ")
+      escreval("":22, num1," atÃ©",num2,":")
       escreval("":10,"+-----------------------------------+")
-      //Visualização dos numeros que o usuario solicitou
+      //VisualizaÃ§Ã£o dos numeros que o usuario solicitou
       escreval
 
 
       para i de num1 ate num2 faca
-         //segue alguns codigos para facilitar o entendimento dos calculos e funções
+         //segue alguns codigos para facilitar o entendimento dos calculos e funÃ§Ãµes
          //escreval("valor de i:", i)
          //escreval("valor de j: ", j)
          //escreval("sobra de ", i, "dividido por ", j, "=", i % j)
          //enquanto k < 10 faca
 
-         //estrutura de repetição que verifica se o numero é divisivel
+         //estrutura de repetiÃ§Ã£o que verifica se o numero Ã© divisivel
          //por apenas dois valores (por ele mesmo e um).
          para j de 1 ate i faca
 
@@ -90,7 +90,7 @@ Inicio
          fimpara
          //se o numero for primo :
          se (primo = 2) entao
-            escreval("":20,"O nº",j, " é primo.")
+            escreval("":20,"O nÂº",j, " Ã© primo.")
             escreval("":15,"+-----------------------+")
             k <- k + 1
          fimse
@@ -98,13 +98,13 @@ Inicio
          primo <- 0
 
       fimpara
-      //estrutura de repetição para a volta ao menu ou a utilização do
+      //estrutura de repetiÃ§Ã£o para a volta ao menu ou a utilizaÃ§Ã£o do
       //programa novamente.
       repita
 
          escreval
-         escreval("":5,"   O Usuário realmente deseja retornar ao menu?   ")
-         escreval("":10," (Digite 'S' para sim ou 'N' para não)")
+         escreval("":5,"   O UsuÃ¡rio realmente deseja retornar ao menu?   ")
+         escreval("":10," (Digite 'S' para sim ou 'N' para nÃ£o)")
          escreval("":8,"+-------------------------------------------+")
          escreval
          escreval
