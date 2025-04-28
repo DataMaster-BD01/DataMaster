@@ -50,6 +50,16 @@ O DataMaster surge como grupo de projeto integrador do curso de Banco de Dados d
 |    RF003.0    | Sequência de Quadrados Perfeitos   |    Média   |
 |    RF010.0    | Menu Interativo                    |    Alta    |
 
+*4.1.1 PRODUCT BACKLOG SPRINT 2:* foram construídos os códigos de programação dos requisitos indicados na tabela 3.
+
+**Tabela 3.** Tarefas realizadas dos requisitos previstos no sprint 2.
+| ID REQUISITOS |              REQUISITOS            | PRIORIDADE |
+| ------------- | ---------------------------------- | ---------- |
+|    RF001.0    | Sequência de Tribonacci	         |    Alta    |
+|    RF002.0    | Sequência Alternada                |    Baixa   |
+|    RF003.0    | Sequência de Números Primos        |    Média   |
+|    RF010.0    | Menu Interativo                    |    Alta    |
+
 > **Observação:** O requisito RF010.0 (Menu Interativo) está presente em todas as sprints para garantir a navegação e a integração das funcionalidades.
   
 *4.2 INSTRUÇÕES DE USO*
