@@ -1,37 +1,38 @@
 algoritmo "SequenciaFatorial"
-// Programa que explica fatorial, calcula o fatorial de um número
-// e mostra a sequência fatorial dos 10 números seguintes
+// Programa que explica fatorial, calcula o fatorial de um nÃºmero
+// e mostra a sequÃªncia fatorial dos 10 nÃºmeros seguintes
 
 var
    numero, i, j, fatorial: inteiro
    resposta: caractere
+   repetir: caractere 
 
 inicio
-      // Explicação sobre o que é fatorial
+      // ExplicaÃ§Ã£o sobre o que Ã© fatorial
       escreval("================================================")
-      escreval("          SEQUÊNCIA FATORIAL")
+      escreval("          SEQUÃŠNCIA FATORIAL")
       escreval("================================================")
-      escreval("Fatorial de um número n (representado por n!) é o")
-      escreval("produto de todos os números inteiros positivos")
-      escreval("de 1 até n. Por exemplo:")
+      escreval("Fatorial de um nÃºmero n (representado por n!) Ã© o")
+      escreval("produto de todos os nÃºmeros inteiros positivos")
+      escreval("de 1 atÃ© n. Por exemplo:")
       escreval("")
-      escreval("5! = 5 × 4 × 3 × 2 × 1 = 120")
+      escreval("5! = 5 Ã— 4 Ã— 3 Ã— 2 Ã— 1 = 120")
       escreval("")
-      escreval("Por definição, 0! = 1")
+      escreval("Por definiÃ§Ã£o, 0! = 1")
       escreval("================================================")
       escreval("")
 
-      // Solicita ao usuário um número para calcular o fatorial
-      escreva("Digite um número inteiro não negativo: ")
+      // Solicita ao usuÃ¡rio um nÃºmero para calcular o fatorial
+      escreva("Digite um nÃºmero inteiro nÃ£o negativo: ")
       leia(numero)
 
-      // Valida se o número é não negativo
+      // Valida se o nÃºmero Ã© nÃ£o negativo
       enquanto numero < 0 faca
-         escreva("Número inválido! Digite um número não negativo: ")
+         escreva("NÃºmero invÃ¡lido! Digite um nÃºmero nÃ£o negativo: ")
          leia(numero)
       fimenquanto
 
-      // Calcula o fatorial do número digitado
+      // Calcula o fatorial do nÃºmero digitado
       fatorial <- 1  // Inicializa o fatorial com 1 (caso para 0! e 1!)
 
       // Loop para calcular o fatorial
@@ -41,27 +42,32 @@ inicio
 
       // Mostra o resultado do fatorial calculado
       escreval("")
-      escreval("O fatorial de ", numero, "! é: ", fatorial)
+      escreval("O fatorial de ", numero, "! Ã©: ", fatorial)
       escreval("")
 
-      // Mostra a sequência fatorial dos 10 números seguintes
-      escreval("Sequência fatorial dos 10 números após ", numero, ":")
+      // Mostra a sequÃªncia fatorial dos 10 nÃºmeros seguintes
+      escreval("SequÃªncia fatorial dos 10 nÃºmeros apÃ³s ", numero, ":")
       escreval("")
 
       // Loop para calcular e mostrar os 10 fatoriais seguintes
       para j de numero+1 ate numero+10 faca
-         // Reinicia o cálculo do fatorial para cada número
+         // Reinicia o cÃ¡lculo do fatorial para cada nÃºmero
          fatorial <- 1
 
-         // Calcula o fatorial do número atual (j)
+         // Calcula o fatorial do nÃºmero atual (j)
          para i de 1 ate j faca
             fatorial <- fatorial * i
          fimpara
 
-         // Mostra o resultado do fatorial do número atual
+         // Mostra o resultado do fatorial do nÃºmero atual
          escreval(j, "! = ", fatorial)
       fimpara
 
-      escreval("")
-      escreval("Fim do programa. Obrigado!")
+        escreval
+      escreval ("Deseja repetir o programa s (sim) ou n (nÃ£o): ")
+      leia (repetir)
+      // exibe a opÃ§Ã£o de repetir o programa
+      limpatela
+   ate repetir = "n"
+   // caso a opÃ§Ã£o seja n (nÃ£o) o programa Ã© encerrado, finalizando o laÃ§o de repetiÃ§Ã£o
 fimalgoritmo
