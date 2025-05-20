@@ -8,6 +8,8 @@ var
    repetir: caractere 
 
 inicio
+   repita
+   // Inicia o loop de repetição
       // Explicação sobre o que é fatorial
       escreval("================================================")
       escreval("          SEQUÊNCIA FATORIAL")
