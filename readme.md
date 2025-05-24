@@ -1,11 +1,11 @@
-# 📊 DATAMASTER | Banco de Dados - API | 1º Semestre - 2025
+# 📊 DATAMASTER | Banco de Dados - API | 1º Semestre-2025
 
 ## 📌 Índice
 
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Objetivos](#-objetivos)
 - [Ferramentas Utilizadas](#️-ferramentas-utilizadas)
-- [Product Backlog Geral](#-product-backlog-geral)
+- [Product Backlog](#-product-backlog)
 - [Sprint Backlogs](#-sprint-backlogs)
 - [Como Executar o Projeto](#-como-executar-o-projeto)
 - [Documentação & Guia do Usuário](#-documentação--guia-do-usuário)
@@ -29,7 +29,7 @@ O **DataMaster** é um projeto integrador da FATEC Prof. Jessen Vidal (São Jos�
 - [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com)
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DataMaster-BD01/DataMaster)
 
-## 🧩 Product Backlog Geral
+## 🧩 Product Backlog
 
 | ID       | Requisito                         | Sprint | Prioridade |
 |----------|-----------------------------------|--------|------------|
