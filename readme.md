@@ -1,4 +1,4 @@
-# 📊 DATAMASTER | Banco de Dados - API | 1º Semestre-2025
+# 📊 DATAMASTER | Banco de Dados - API | 1º Semestre
 
 ## 📌 Índice
 
