@@ -4,7 +4,7 @@ Algoritmo "Main"
 
 Var
 
-   menu, razao, entrada, entradaDois, i, j, k, chave, num : inteiro
+   menu, razao, entrada, entradaDois, i, j, k, chave : inteiro
    numUm, numDois, numTres, resultado : real
    sair, invalido, ler, fechar, inv : caractere
 
@@ -53,7 +53,6 @@ fimprocedimento
 repita
    limpatela
    repita
-      resultado <- 0
       escreval("================================================================")
       escreval("================================================================")
       escreval
@@ -182,6 +181,7 @@ repita
    caso 2
       repita
          repita
+            resultado <- 0
             escreval("":10,"+---------------------------------------+")
             escreval("":10,"|*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*|")
             escreval("":10,"|*        -SEQUENCIA ALTERNADA-        *|")
@@ -262,7 +262,6 @@ repita
             escreval("":10,"|*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*|")
             escreval("":10,"+---------------------------------------+")
             leia(entrada)
-            resultado <- 0
             numUm <- entrada
             escreval
             escreva("":10,"")
@@ -289,7 +288,6 @@ repita
             escreval("":10,"|*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*|")
             escreval("":10,"+---------------------------------------+")
             leia(entrada)
-            resultado <- 0
             numUm <- entrada
             escreval
             escreva("":10,"")
@@ -311,6 +309,7 @@ repita
       ate (minusc(sair) = "s")
    caso 3
       repita
+         resultado <- 0
          escreval
          escreval("":10,"+---------------------------------------+")
          escreval("":10,"|*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*|")
@@ -372,6 +371,7 @@ repita
    caso 4
       repita
          repita
+            resultado <- 0
             escreval("":10,"+---------------------------------------+")
             escreval("":10,"|*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*|")
             escreval("":10,"|*        -SEQUENCIA Nº PRIMOS-        *|")
@@ -446,9 +446,9 @@ repita
          sair(ler)
       ate (minusc(sair) = "s")
    caso 5
-      resultado <- 1
       repita
          repita
+            resultado <- 1
             escreval("":10,"+---------------------------------------------+")
             escreval("":10,"|*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*|")
             escreval("":10,"|*           -Sequência Fatorial-            *|")
@@ -479,17 +479,17 @@ repita
             escreval("":10,"|*","":43,"*|")
             escreval("":10,"|*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*|")
             escreval("":10,"+---------------------------------------------+")
-            leia (num)
-            se num <=0 entao
+            leia (entrada)
+            se entrada <=0 entao
                invalido(inv)
             fimse
-         ate(num>0)
+         ate(entrada>0)
          escreval("":10,"+---------------------------------------------+")
          escreval
-         escreval("":14,num,"!  ")
-         escreva(num)
-         para i de num ate 1 passo -1 faca
-            se i <num entao
+         escreva("":14,entrada,"!  ")
+         escreva(entrada)
+         para i de entrada ate 1 passo -1 faca
+            se i <entrada entao
                escreva(" * ", i)
             fimse
             resultado <- resultado * i
@@ -501,6 +501,7 @@ repita
       ate (minusc(sair) = "s")
    caso 6
       repita
+         resultado <- 0
          escreval("":10,"+---------------------------------------+")
          escreval("":10,"|*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*|")
          escreval("":10,"|*   -SEQUÊNCIA QUADRADOS PERFEITOS-   *|")
@@ -614,6 +615,7 @@ repita
    caso 8
       repita
          repita
+            resultado <- 0
             escreval("":10,"+---------------------------------------+")
             escreval("":10,"|*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*|")
             escreval("":10,"|*       - SEQUÊNCIA TRIBONACCI -      *|")
@@ -676,6 +678,7 @@ repita
    caso 9
       repita
          repita
+            resultado <- 0
             escreval("":10,"+---------------------------------------+")
             escreval("":10,"|*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*|")
             escreval("":10,"|*       - SEQUÊNCIA FIBONACCI -       *|")
@@ -720,7 +723,6 @@ repita
          i <- 0
          numUm <- 0
          numDois <- 1
-         resultado <-0
          escreval("":15," valor solicitado: ",entrada)
          escreval("":15,"+---------------------------+")
          escreval
