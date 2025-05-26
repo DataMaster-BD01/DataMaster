@@ -4,7 +4,7 @@ Algoritmo "Main"
 
 Var
 
-   menu, razao, entrada, entradaDois, i, j, k, chave : inteiro
+   menu, razao, entrada, entradaDois, i, j, k, chave, num : inteiro
    numUm, numDois, numTres, resultado : real
    sair, invalido, ler, fechar, inv : caractere
 
@@ -486,7 +486,7 @@ repita
          ate(num>0)
          escreval("":10,"+---------------------------------------------+")
          escreval
-         escreva("":14,num,"!  ")
+         escreval("":14,num,"!  ")
          escreva(num)
          para i de num ate 1 passo -1 faca
             se i <num entao
